@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UXELIO – Création de sites web modernes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UXELIO – Développeur web freelance. Création de sites modernes, rapides et efficaces pour artisans, entreprises et créateurs."
+    />
+
+    <!-- Police -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- Favicon (à adapter si besoin) -->
+    <link rel="icon" type="image/png" href="./public/images/uxelio-logo.png" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img
+            src="./public/images/uxelio-logo.png"
+            alt="Logo UXELIO"
+            class="brand-logo"
+          />
+          <span class="brand-name">UXELIO</span>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#process">Méthode</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="btn btn-small btn-outline">
+          Démarrer un projet
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="hero-tag">Développeur web freelance – UXELIO</p>
+            <h1>
+              Des sites web
+              <span>modernes, rapides et efficaces</span>
+              pour votre activité.
+            </h1>
+            <p class="hero-sub">
+              Sites vitrines, pages de vente, landing pages… Faits pour être
+              beaux, clairs et simples à utiliser – autant pour toi que pour
+              tes clients.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn">Demander un devis gratuit</a>
+              <a href="#portfolio" class="btn-secondary">
+                Voir les projets en ligne
+              </a>
+            </div>
+            <p class="hero-note">
+              France 🇫🇷 & Algérie 🇩🇿 • Intégration WhatsApp • Optimisation mobile
+            </p>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card">
+              <div class="hero-screen"></div>
+              <div class="hero-grid">
+                <div class="hero-box"></div>
+                <div class="hero-box"></div>
+                <div class="hero-box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="section">
+        <div class="container">
+          <h2 class="section-title">Ce que je propose</h2>
+          <p class="section-subtitle">
+            Des sites concentrés sur l’essentiel : ton image, ton offre, et une
+            manière simple de te contacter.
+          </p>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <h3>Site vitrine moderne</h3>
+              <p>
+                Page claire et structurée avec présentation de ton activité,
+                services, témoignages et contact.
+              </p>
+              <ul>
+                <li>Design sur-mesure</li>
+                <li>Adapté mobile / tablette</li>
+                <li>Chargement rapide</li>
+              </ul>
+            </article>
+
+            <article class="service-card">
+              <h3>Optimisé pour convertir</h3>
+              <p>
+                Chaque section est pensée pour rassurer, expliquer et
+                déclencher une action (appel, WhatsApp, formulaire).
+              </p>
+              <ul>
+                <li>Call-to-action visibles</li>
+                <li>Parcours utilisateur fluide</li>
+                <li>Intégration WhatsApp / mail</li>
+              </ul>
+            </article>
+
+            <article class="service-card">
+              <h3>Technique propre</h3>
+              <p>
+                Code propre, SEO de base, structure lisible pour Google et pour
+                de futures évolutions.
+              </p>
+              <ul>
+                <li>Balises optimisées</li>
+                <li>Bonnes pratiques HTML/CSS</li>
+                <li>Mises à jour faciles</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section id="portfolio" class="section section-portfolio">
+        <div class="container">
+          <h2 class="section-title">Portfolio</h2>
+          <p class="section-subtitle">
+            Quelques projets en ligne. Chaque bulle est cliquable et t’ouvre le
+            site dans un nouvel onglet.
+          </p>
+
+          <div class="portfolio-bubbles">
+            <!-- Bulle 1 : HB Location (exemple) -->
+            <a
+              href="https://hb-location.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bubble"
+            >
+              <div class="bubble-inner">
+                <img
+                  src="./public/images/hb-loc.png"
+                  alt="HB Location – site de location de voitures"
+                />
+                <div class="bubble-label">
+                  <h3>HB Location</h3>
+                  <p>Location de voitures</p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Bulle 2 : Huilerie (exemple) -->
+            <a
+              href="https://huilerie-boudedja.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bubble bubble-delay-1"
+            >
+              <div class="bubble-inner">
+                <img
+                  src="./public/images/huilerie.png"
+                  alt="Huilerie – site vitrine"
+                />
+                <div class="bubble-label">
+                  <h3>Huilerie</h3>
+                  <p>Site vitrine familial</p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Bulle 3 : futur projet démo -->
+            <a
+              href="https://demo1.uxelio.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bubble bubble-delay-2"
+            >
+              <div class="bubble-inner">
+                <img
+                  src="./public/images/portfolio-demo1.jpg"
+                  alt="Projet démo UXELIO"
+                />
+                <div class="bubble-label">
+                  <h3>Projet démo</h3>
+                  <p>Landing page / démo</p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Tu pourras dupliquer ce bloc pour d'autres projets -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process" class="section">
+        <div class="container">
+          <h2 class="section-title">Comment on travaille</h2>
+          <div class="process-grid">
+            <article class="process-step">
+              <span class="step-number">1</span>
+              <h3>Appel & échange</h3>
+              <p>
+                Tu m’expliques ton activité, ton objectif et les sites que tu
+                aimes bien. On définit un plan simple.
+              </p>
+            </article>
+
+            <article class="process-step">
+              <span class="step-number">2</span>
+              <h3>Maquette & structure</h3>
+              <p>
+                Je prépare une structure propre + un style cohérent avec ton
+                image. Tu valides avant dev.
+              </p>
+            </article>
+
+            <article class="process-step">
+              <span class="step-number">3</span>
+              <h3>Développement</h3>
+              <p>
+                Intégration, animations légères, responsive, performance. Tu
+                peux voir le site en pré-prod.
+              </p>
+            </article>
+
+            <article class="process-step">
+              <span class="step-number">4</span>
+              <h3>Mise en ligne</h3>
+              <p>
+                Connexion à ton domaine, réglages finaux, petit guide vidéo /
+                vocal pour t’expliquer comment utiliser ton site.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-contact">
+        <div class="container contact-inner">
+          <div class="contact-text">
+            <h2 class="section-title">Parlons de ton projet</h2>
+            <p class="section-subtitle">
+              Un simple message suffit. Dis-moi ce que tu veux faire, et je te
+              réponds avec des idées concrètes et un budget réaliste.
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <strong>Email :</strong> contact.uxelio@gmail.com
+              </li>
+              <li>
+                <strong>WhatsApp :</strong> +33 7 52 04 86 62
+              </li>
+              <li>
+                <strong>Instagram :</strong> @uxelio.web
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form">
+            <div class="field">
+              <label for="name">Nom / activité</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ex : HB Location, Huilerie Boudedja…"
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="ton.email@example.com"
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Ton projet</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Parle-moi de ton site idéal, des pages que tu veux, des exemples que tu aimes…"
+              ></textarea>
+            </div>
+
+            <button type="button" id="contact-whatsapp" class="btn">
+              Envoyer via WhatsApp
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> UXELIO – Tous droits réservés.</p>
+        <p class="footer-note">Développé à la main, sans bullshit.</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
