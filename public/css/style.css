@@ -285,7 +285,15 @@ body {
 
 .hero-visual {
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 920px; /* augmente si tu veux + grand */
+  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.25));
+  user-select: none;
 }
 
 .hero-card {
